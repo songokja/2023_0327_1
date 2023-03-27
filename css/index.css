@@ -1,0 +1,317 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a7ddc7057a.js" crossorigin="anonymous"></script>
+    <script src="https://code.jquery.com/jquery-2.2.3.min.js"></script>
+
+    <script>
+        $(document).ready(function () {
+            $("#a").click(function () {
+                $(".b").slideToggle();
+            });
+
+            $(window).resize(function () {
+                if (window.innerWidth >= 768) {
+                    $(".b").show();
+                }
+            });
+
+            $(window).resize(function () {
+                if (window.innerWidth <= 767) {
+                    $(".b").hide();
+                }
+            }); 
+        });
+
+    </script>
+    <title>FAMILIA BEWINE</title>
+    <link href="css/reset.css" rel="stylesheet">
+    <link href="css/common_max_767.css" rel="stylesheet">
+    <link href="css/common_min_768.css" rel="stylesheet">
+
+    <link href="css/index_max_599.css" rel="stylesheet">
+    <link href="css/index_min_600.css" rel="stylesheet">
+    <link href="css/index_min_1100.css" rel="stylesheet">
+
+
+
+</head>
+
+
+<body>
+    <div id="wrap">
+
+
+        <header>
+
+
+
+            <div class="small">
+                <div id="logo">
+                    <img src="img/logo.png" alt="">
+                </div>
+                <i class="fa-solid fa-bars" id="a"></i>
+            </div>
+            <nav class="b">
+                <ul>
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT US</a></li>
+                    <li><a href="#">WINES</a></li>
+                    <li><a href="#">VINEYARDS</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">BUY NOW</a></li>
+                </ul>
+            </nav>
+
+
+        </header>
+
+        <div id="slider">
+            <img src="img/wineslider.jpg" alt="">
+
+        </div>
+
+
+        <section>
+            <div id="history">
+                <div class="box">
+                    <h6>About us</h6>
+                    <h3>HISTORY AND TRADITION <br>OF OUR <span> VINEYARDS</span> </h3>
+
+                    <div class="box1897">
+                        <img src="img/1897.jpg">
+                        <p>Mauris rhoncus orci in imperdiet placerat. Vestibulum euismod nisl suscipit ligula volutpat,
+                            a feugiat urna maximus. Cras massa nibh, tincidunt.<br><br>
+
+                            Donec et nibh maximus, congue est eu, mattis nunc. Praesent ut quam quis quam venenatis
+                            fringilla. Morbi vestibulum id tellus commodo mattis. Aliquam erat volutpat. Aenean accumsan
+                            id mi nec semper. Lorem ipsum.<br><br>
+
+                            Duis ultricies malesuada leo vel aliquet. Curabitur rutrum porta dui eget mollis. Nullam
+                            lacinia dictum auctor. aptent taciti sociosqu ad litora torquent per conubia nostra, per
+                            inceptos himenaeos. Orci varius natoque.
+
+                            Penatibus et magnis dis parturient montes.</p>
+
+                    </div>
+                    <div class="boxnum">
+                        <h3>124</h3>
+                        <h6>ALIQUAM ERAT IPSUM</h6>
+                        <p>Fusce ut velit laoreet, tempus
+                            arcu eu, molestie tortor. Nam
+                            vel justo cursus faucibus.</p>
+
+
+                    </div>
+
+                    <div class="boxnum">
+                        <h3>260</h3>
+                        <h6>MALESUADA ELIT</h6>
+                        <p>Fusce ut velit laoreet, tempus
+                            arcu eu, molestie tortor. Nam
+                            vel justo cursus faucibus.</p>
+
+
+                    </div>
+
+
+
+
+
+                    <div class="boxnum">
+                        <h3>165</h3>
+                        <h6>DAPIBUS RISUS</h6>
+                        <p>Fusce ut velit laoreet, tempus
+                            arcu eu, molestie tortor. Nam
+                            vel justo cursus faucibus.</p>
+
+                    </div>
+
+
+                    <div class="boxnum">
+                        <h3>987</h3>
+                        <h6>ALIQUAM ERAT IPSUM</h6>
+                        <p>Fusce ut velit laoreet, tempus
+                            arcu eu, molestie tortor. Nam
+                            vel justo cursus faucibus.</p>
+
+                    </div>
+
+                    <button>ABOUT US</button>
+                    <button>OUR WINES</button>
+                </div>
+
+            </div>
+
+
+
+            <div id="work">
+                <div class="box">
+                    <h6>HOW WE WORK</h6>
+                    <h3>THE BEST INGREDIENTS</h3>
+
+                    <div class="boxnum">
+                        <img src="img/grape1.png" alt="">
+                        <h3>ELEIFEND JUSTO BIBENDUM</h3>
+                        <p>Ut ultricies imperdiet sodales.
+                            Aliquam fringilla aliquam ex
+                            sit amet elementum.
+                            Proin bibendum feugiat.</p>
+
+                    </div>
+
+                    <div class="boxnum">
+                        <img src="img/grape2.png" alt="">
+
+                        <h3>LECTUS FELIS ULTRICIES</h3>
+
+                        <p>Fusce ut velit laoreet,
+                            tempus arcu eu,
+                            molestie tortor. Nam
+                            vel justo cursus lorem.</p>
+
+
+                    </div>
+
+                    <div class="boxnum">
+                        <img src="img/grape3.png" alt="">
+
+                        <h3>INTEGER ULTRICES</h3>
+
+                        <p>Aliquam fringilla
+                            aliquam ex sit amet
+                            elementum. Proin
+                            bibendum sollicitudin
+                            feugiat fringilla
+                            aliquam.</p>
+
+
+                    </div>
+
+
+
+
+
+                    <div class="boxnum">
+                        <img src="img/grape4.png" alt="">
+
+                        <h3>FERMENTUM IN DOLOR</h3>
+
+                        <p>Aliquam ac dui
+                            vel dui vulputate consectetur.
+                            Mauris accumsan,
+                            massa non.</p>
+
+                    </div>
+
+
+
+                    <button>SEE OUR VINEYARDS</button>
+                    <button>OUR WINES</button>
+                </div>
+
+            </div>
+
+
+    </div>
+
+    </div>
+
+    <div id="business">
+        <div class="box">
+            <h6>BEWINE</h6>
+            <h3>MEET OUR<br><span>FAMILYBUSINESS</span></h3>
+
+
+            <div class="boxnum">
+                <img src="img/bab.jpg" alt="">
+                <h3>ELEIFEND JUST<br> BIBENDUM</h3>
+
+                <p>Ut ultricies imperdiet sodales. Aliquam fringilla aliquam ex sit amet elementum. Proin bibendum
+                    feugiat.</p>
+                <p>Aliquam fringilla aliquam Proin bibendum feugiat Curabitur ut egestas</p>
+            </div>
+
+            <div class="boxnum">
+                <img src="img/bab2.jpg" alt="">
+
+                <h3>LECTUS FELIS ULTRICIES</h3>
+
+                <p>Fusce ut velit laoreet,
+                    tempus arcu eu,
+                    molestie tortor. Nam
+                    vel justo cursus lorem.</p>
+                <p>Aliquam fringilla aliquam Proin bibendum feugiat Curabitur ut egestas</p>
+
+
+            </div>
+
+            <div class="boxnum">
+                <img src="img/bab3.jpg" alt="">
+
+                <h3>INTEGER ULTRICES</h3>
+
+                <p>Aliquam fringilla
+                    aliquam ex sit amet
+                    elementum. Proin
+                    bibendum sollicitudin
+                    feugiat fringilla
+                    aliquam.</p>
+                <p>Aliquam fringilla aliquam Proin bibendum feugiat Curabitur ut egestas</p>
+
+
+            </div>
+
+
+
+
+
+
+            <button>ABOUT US</button>
+            <button>OUR WINES</button>
+        </div>
+
+    </div>
+
+
+    </div>
+
+    </div>
+
+
+    <div id="club">
+        <div class="box">
+            <h6>ABOUT US</h6>
+            <h3>THE CLUB FOR<br><span>CONNOISSEURS</span></h3>
+
+
+
+            <p>Duis dignissim mi ut laoreet mollis. Nunc id tellus finibus, eleifend mi vel,<br>
+                maximus justo. Maecenas mi tortor, pellentesque aliquam.</p>
+
+
+
+            <button>JOIN NOW</button>
+        </div>
+
+    </div>
+
+
+
+
+
+    </section>
+
+    <footer>
+        <p>© 2020 BeWine3 - BeTheme. Muffin group - HTML by <span>BeantownThemes</span></p>
+    </footer>
+
+    </div>
+
+</body>
+
+</html>

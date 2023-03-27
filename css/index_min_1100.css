@@ -1,0 +1,435 @@
+@charset "UTF-8";
+
+
+/*1100이상일때*/
+@media (min-width:1100px){
+
+#slider {
+    width: 100%;
+    height: 700px;
+    margin: 100px auto 0;
+
+}
+
+#slider>img {
+    width: 100%;
+    height: 700px;
+    margin: 0 auto;
+}
+
+section {
+    width: 100%;
+    height: auto;
+    background-color: #024126;
+    margin: 0 auto;
+}
+
+/*history*/
+#history {
+    width: 100%;
+    height: 1auto;
+    background-color: #024126;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#history>.box {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+#history>.box>h6 {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+#history>.box>h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    width: 100%;
+}
+
+#history>.box span {
+    color: #fff;
+    opacity: 0.8;
+
+}
+
+#history>.box>.box1897 {
+    width: 90%;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    margin: 50px 0px;
+
+}
+
+#history>.box>.box1897>img {
+    width: 600px;
+    height: 400px;
+}
+
+#history>.box>.box1897>p {
+    font-size: 17px;
+    padding: 20px;
+    color: #f3e8df;
+}
+
+#history>.box>.boxnum {
+    width: 20%;
+    height: 250px;
+   
+    margin: 2%;
+}
+
+#history>.box>.boxnum>h3 {
+    font-size: 70px;
+    text-align: center;
+    color: #f3e8df;
+}
+
+#history>.box>.boxnum>h6 {
+    font-size: 15px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #f3e8df;
+}
+
+#history>.box>.boxnum>p {
+    font-size: 13px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #f3e8df;
+}
+
+
+#history>.box>button:nth-of-type(1) {
+    width: 120px;
+    height: 50px;
+    background-color: #62011d;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#history>.box>button:nth-of-type(1):hover {
+    opacity: 0.8;
+}
+
+
+#history>.box>button:nth-of-type(2) {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#history>.box>button:nth-of-type(2):hover {
+    opacity: 0.8;
+}
+
+/*work*/
+#work {
+    width: 100%;
+    height: 900px;
+    background-color: #f3e8df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#work>.box {
+    width: 1000px;
+    height: 700px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+#work>.box>h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #024126;
+    width: 100%;
+}
+
+#work>.box span {
+    color: #6c4d4d;
+    opacity: 0.8;
+
+}
+
+#work>.box>.boxnum {
+    width: 200px;
+    height: 350px;
+    margin: 10px;
+}
+
+#work>.box>.boxnum>img {
+    width: 100%;
+    height: 180px;
+}
+
+#work>.box>.boxnum>h3 {
+    font-size: 15px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #024126;
+}
+
+#work>.box>.boxnum>p {
+    font-size: 14px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #666;
+}
+
+
+#work>.box>button {
+    width: 120px;
+    height: 50px;
+    background-color: #62011d;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+}
+
+#work>.box>button:nth-of-type(1) {
+    width: 200px;
+    height: 50px;
+    background-color: #024126;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#work>.box>button:nth-of-type(1):hover {
+    opacity: 0.8;
+}
+
+#work>.box>button:nth-of-type(2) {
+    width: 120px;
+    height: 50px;
+    background-color: #80a093;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#work>.box>button:nth-of-type(2):hover {
+    opacity: 0.8;
+}
+
+
+/*business*/
+#business {
+    width: 100%;
+    height: 1100px;
+    background-color: #024126;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#business>.box {
+    width: 1000px;
+    height: 900px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+
+}
+
+
+
+#business>.box>h6 {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+#business>.box>h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #fff;
+    width: 100%;
+}
+
+#business>.box span {
+    color: #fff;
+    opacity: 0.8;
+
+}
+
+#business>.box>.boxnum {
+    width: 300px;
+    height: 500px;
+    margin: 10px;
+}
+
+#business>.box>.boxnum>img {
+    width: 100%;
+    height: 230px;
+}
+
+#business>.box>.boxnum>h3 {
+    font-size: 15px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+#business>.box>.boxnum>p:nth-of-type(1) {
+    font-size: 14px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #fff;
+}
+
+#business>.box>.boxnum>p:nth-of-type(2) {
+    font-size: 14px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #eee;
+    opacity: 0.7;
+}
+
+
+#business>.box>button:nth-of-type(1) {
+    width: 120px;
+    height: 50px;
+    background-color: #62011d;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#business>.box>button:nth-of-type(1):hover {
+    opacity: 0.8;
+}
+
+
+#business>.box>button:nth-of-type(2) {
+    width: 120px;
+    height: 50px;
+    background-color: #fff;
+    color: #333;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#business>.box>button:nth-of-type(2):hover {
+    opacity: 0.8;
+}
+
+
+
+
+/*club*/
+#club {
+    width: 100%;
+    height: 600px;
+    background-color: #f3e8df;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#club>.box {
+    width: 1000px;
+    height: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-image: url("../img/grape1.png"), url("../img/grape2.png");
+    background-repeat: no-repeat;
+    background-position: 5% 50%, 95% 50%;
+
+}
+
+
+
+#club>.box>h6 {
+    text-align: center;
+    font-size: 15px;
+    color: f3e8df;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+#club>.box>h3 {
+    text-align: center;
+    font-size: 40px;
+    color: #024126;
+    width: 100%;
+}
+
+#club>.box span {
+    text-align: center;
+    font-size: 40px;
+    color: #024126;
+    opacity: 0.7;
+}
+
+
+
+#club>.box>p {
+    font-size: 16px;
+    margin: 30px 0 0 0;
+    text-align: center;
+    color: #666;
+    width: 100%;
+}
+
+
+
+
+
+
+#club>.box>button:nth-of-type(1) {
+    width: 120px;
+    height: 50px;
+    background-color: #62011d;
+    color: #fff;
+    text-align: center;
+    border: 0;
+    margin: 10px;
+    cursor: pointer;
+}
+
+#club>.box>button:nth-of-type(1):hover {
+    opacity: 0.8;
+}
+
+}
+
